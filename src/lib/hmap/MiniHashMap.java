@@ -25,7 +25,7 @@ public class MiniHashMap<K, V> {
 
     private int hash(K key) {
         // return Math.abs(key.hashCode()) % table.length;
-        return (int) key % 10;
+        return (int) key % 1000;
 
     }
 
