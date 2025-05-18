@@ -2,7 +2,7 @@ package lib.hmap;
 import java.util.LinkedList;
 
 public class MiniHashMap<K, V> {
-    private static final int CAPACITY = 100000;
+    private static final int CAPACITY = 1;
 
     private LinkedList<Entry<K, V>>[] table;
 
